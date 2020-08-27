@@ -1,0 +1,62 @@
+<html>
+    <header>
+        <title>Conversor de Temperatura</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </header>
+
+    <body>
+
+        <div class="container">
+
+            <form class="form-temp">
+                <!------------------------------------------------------------>
+                <fieldset>
+                    <h2>Conversor de Temperatura</h2>
+                    <!------------------------------------------------------------>
+
+                    <label>Valores de Temperatura: </label>
+                    <input type="text" id="valTemp" placeholder="Valores" />
+                    
+                    <br><br>
+
+                    <label>Un. de Temperatura Atual: 
+
+                    <select id="ua" name='uAtual'>
+                        <option value="">Escolha uma Unidade</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                    </label>
+                    <br><br>
+    
+                    <!------------------------------------------------------------>
+
+                    <label> Un. de Temperatura para Conversão:</label>
+                    <select id="uc" name='uConv'>
+                        <option value="">Escolha uma Unidade</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+
+                    <br><br>
+                    <button id="conTemp" type="button" value="novo">Converter</button>
+                    <!------------------------------------------------------------>
+
+                    <div id="tConvertidas">
+                        <h3>Temperaturas Convertidas: </h3>
+                        <textarea  id="ta1" cols="45" rows="5"></textarea>
+                        <textarea  id="ta2" cols="45" rows="5"></textarea>
+                    </div>
+                    <!------------------------------------------------------------>
+
+                </fieldset>
+                
+            </form>
+
+        </div>
+        
+        <script src="js/listener.js"></script>
+    </body>
+</html>

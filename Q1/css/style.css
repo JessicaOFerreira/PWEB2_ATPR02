@@ -1,0 +1,52 @@
+*{
+    padding-bottom: 2px;
+}
+
+html{
+    background: linear-gradient( cornsilk,lightskyblue );
+}
+.container{
+    border: gray;
+}
+fieldset{
+    height: 60%; 
+    width: 680px;
+    margin-left: 320px;
+    position: relative;
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    color:rgb(158, 153, 153);
+}
+
+h2{
+    text-align: center;
+    position: relative;
+}
+
+
+#valTemp{
+    position: relative;
+    margin-left: 80px;
+    width: 200px;
+}
+
+#ua{
+    width: 200px;
+    margin-left: 65px;
+}
+
+#uc{
+    width: 200px;
+ 
+}
+
+#conTemp{
+    margin-left: 310px;
+}
+
+#conTemp{
+    font-size:13px;
+    background-color: mediumspringgreen;
+}
